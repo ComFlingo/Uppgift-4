@@ -1,0 +1,18 @@
+using System;
+
+namespace Uppgift4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Instantiates a dog
+            Dog myDog = new Dog();
+
+            // Prints every value, no for-loop as it's only 1 dog
+            Console.WriteLine("Name: " + myDog.getName());
+            Console.WriteLine("Tail Length: " + myDog.getTailLength() + "cm" + "\n");
+            Console.WriteLine(myDog.bark());
+        }
+    }
+}
